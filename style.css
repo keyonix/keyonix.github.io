@@ -1,0 +1,102 @@
+body {
+	padding-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+#head {
+	height: 400px;
+	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2)), url(pic/head_s.png);
+	/*background-size: cover;*/
+	background-position: center;
+
+	text-align: center;
+	padding-top: 6%;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+				 0px 10px 15px rgba(0,0,0,0.3),
+				 0px 20px 25px rgba(0,0,0,0.3);
+}
+
+#services-head {
+	text-align: center;
+	padding-top: 6%;
+	background-color: #e7e7e7;
+}
+
+#services {
+	background-color: #e7e7e7;
+	padding-top: 8%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 4%;
+	text-align: center;
+}
+
+#about-head {
+	background-color: #dcdcdc;
+	padding-top: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#about {
+	background-color: #dcdcdc;
+	padding-top: 2%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 4%;
+	text-align: center;
+}
+
+#contact-head {
+	background-color: #e7e7e7;
+	padding-top: 2%;
+	text-align: center;
+}
+
+#contact {
+	background-color: #e7e7e7;
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+
+.content-image {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-person-desc {
+	padding-top: 5%;
+}
+
+hr {
+	width: 700px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 550;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2.3em;
+	font-weight: 200;
+	letter-spacing: 1.05px;
+}
+
+h4 {
+	font-size: 2em;
+}
