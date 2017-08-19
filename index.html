@@ -2,166 +2,50 @@
 <html>
 <head>
 	<title>Keyonix</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<meta charset="utf-8" /> 
 </head>
 <body>
-	<!-- NAVBAR -->
-	<nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">Keyonix</a>
-	    </div>
-
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Услуги</a></li>
-	        <li><a href="#">О нас</a></li>
-	        <li><a href="#">Контакты</a></li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-
-	<div class='container-fluid'>
-		<!-- HEAD -->	
-		<div id='head' class="row">	
-				<div class='col-lg-12'>
-					<h1>KEYONIX</h1>
-					<hr>
-					<h3>Комплексная аналитика геоданных</h3>
-				</div>
-		</div>
-		<!-- SERVICES HEAD-->
-		<div id='services-head' class='row'>
-				<div class="col-lg-12">
-					<h2>ПРИКЛАДНЫЕ НАУКОЕМКИЕ РЕШЕНИЯ</h2>
-				</div>
-		</div>
-		<!-- SERVICES -->
-		<div id='services' class='row'>
-			<div class="col-sm-4">
-				<img class="img-responsive content-image" src="pic/3d.png">
-				<h4>Аэросъемка и 3D моделирование</h4>
-				<p>Используя безпилотные дроны мы производим
-					 съемку поверхности земли для построения 3D моделей
-					 и извлечения интересующих данных</p>
-			</div>
-			<div class="col-sm-4">
-				<img class="img-responsive content-image" src="pic/scatter.png">
-				<h4>Анализ с применением машинного обучения</h4>
-				<p>Наш подход основан на обработке данных современными 
-					 методами высичлительной математики с помощью новейшего
-					 програмного обеспечения</p>
-			</div>
-			<div class="col-sm-4">
-				<img class="img-responsive content-image" src="pic/gis.png">
-				<h4>Многофункциональные GIS системы</h4>
-				<p>Детальный анализ изображений в геоинформационные системах
-					 позволяет нам агрегировать информацию и создавать всесторонний
-					 отчет о изучаемом объекте</p>
-			</div>
-		</div>
-		<!-- ABOUT HEAD -->
-		<div id="about-head" class="row">
-			<div class="col-lg-12">
-				Комбинируя междисциплинарные знания и навыки, мы создали команду, 
-				способную извлекать максимум полезной информации из данных,
-				решая сложные прикладные задачи самыми современными методами
-			</div>
-		</div>
-		<!-- ABOUT -->
-		<div id="about" class="row">
-			<div class="col-sm-6">
-				<img class="img-responsive content-image" src="pic/kn.png">
-				<div class="about-person-desc">Николай Никифоров</div>
-			</div>
-			<div class="col-sm-6">
-				<img class="img-responsive content-image" src="pic/kb.png">
-				<div class="about-person-desc">Николай Билев</div>
-			</div>
-		</div>
-		<!-- CONTACT-HEAD -->
-		<div id="contact-head" class="row">
-			<h3>СВЯЖИТЕСЬ С НАМИ!</h3>
-		</div>
-		<!-- CONTACT -->
-		<div id="contact" class="row">
+	<section id='header'>	
+		<div id="bg"></div>
+		<div class='container'>
 			<div class='col-lg-12'>
-				<form class="form-horizontal" action="https://formspree.io/bilevn@gmail.com" method="POST">
-		 <!-- <div><input type="text" name="name"></div>
-			    <div><input type="email" name="_replyto"></div>
-			    <div><input type="submit" value="Send"></div> -->
-
-			    <div class="container">
-			    	<!-- Your Name -->
-						<div class="form-group">
-						  <label class="col-md-4 control-label">Ваше имя</label>  
-						  <div class="col-md-4 inputGroupContainer">
-							  <div class="input-group">
-								  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-								  <input name="your_name" placeholder="ФИО" class="form-control" type="text">
-							  </div>
-						  </div>
-						</div>
-						<!-- E-Mail -->
-						 <div class="form-group">
-							<label class="col-md-4 control-label">E-Mail</label>  
-							<div class="col-md-4 inputGroupContainer">
-							  <div class="input-group">
-							     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-										<input name="email" placeholder="Адрес электронной почты" class="form-control"  type="text">
-							  </div>
-							</div>
-						</div>
-						<!-- Phone -->
-						<div class="form-group">
-							<label class="col-md-4 control-label">Телефон</label>  
-							<div class="col-md-4 inputGroupContainer">
-						  	<div class="input-group">
-						      <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-									<input name="phone" placeholder="Номер телефона" class="form-control" type="text">
-							  </div>
-							</div>
-						</div>
-						<!-- Information -->
-						<div class="form-group">
-						 <label class="col-md-4 control-label">Комментарий</label>
-						  <div class="col-md-4 inputGroupContainer">
-						    <div class="input-group">
-						       <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-						       <textarea class="form-control" name="comment" placeholder="Дополнительная информация"></textarea>
-						  	</div>
-						  </div>
-						</div>
-						<!-- Sumbmit -->
-						<div class="form-group">
-						  <label class="col-md-4 control-label"></label>
-						  <div class="col-md-4">
-						    <button type="submit" value="Send" class="btn btn-default">Отправить <span class="glyphicon glyphicon-send"></span></button>
-						  </div>
-						</div>
-					</div>
-				</form>
-
+				<div id="header-title">
+					<h1>KEYONIX</h1>	
+				</div>
+				<div id='header-tagline'>
+					<h4>Технологии искусственного интеллекта для решения задач в вашей отрасли</h4>	
+				</div>
+				<nav class="navigation">
+					<ul>
+					  <li id="nav-main"><a href="#">Главная</a></li>
+					  <li id="nav-solutions"><a href="#">Решения</a></li>
+					  <li id="nav-approach"><a href="#">Подход</a></li>
+					  <li id="nav-contacts"><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="scroll-down">
+				<a href="#" class="fa fa-angle-down" aria-hidden="true"></a>
 			</div>
 		</div>
+	</section>
 
-	</div>
+	<section class='solutions'>
+		<div class='container'>
+			<div class="col-lg-12">
+				<h2>Следующая секция</h2>
+			</div>
+		</div>
+	</section>
 
-<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script> -->
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
-

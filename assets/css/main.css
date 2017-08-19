@@ -1,0 +1,199 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+  background-color: black;
+}
+
+
+/*Header*/
+#bg {
+    display: none;
+    position: absolute;
+    background: url(../../images/aral-tasher-324864.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#header {
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	min-height: 40em;
+
+	text-align: center;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+				 0px 10px 15px rgba(0,0,0,0.3),
+				 0px 20px 25px rgba(0,0,0,0.3);
+}
+
+#header-title {
+	margin-top: 15vh;
+  margin-bottom: 5vh;
+  color: white;
+  /*text-shadow:-1px -1px 0 lightgreen, 2px 2px 0 pink;*/
+  text-shadow: 
+               1px 1px 0 black, 
+               2px 2px 0 lightgray,
+               5px 5px 0 black;
+
+}
+
+#header-tagline {
+  display: none;
+  /*background-color: red;*/
+	margin-left: 10vw;
+	margin-right: 10vw;
+
+  border: 1px solid #f8f8f8;
+  border-left-width: 0;
+  border-right-width: 0;
+
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  
+/*  -webkit-animation: padding-move 2s ease-out;
+     -moz-animation: padding-move 2s ease-out;
+      -ms-animation: padding-move 2s ease-out;
+       -o-animation: padding-move 2s ease-out;
+          animation: padding-move 2s ease-out;*/
+
+}
+/*@-webkit-keyframes padding-move {
+  from {padding-top: 0vh; padding-bottom: 0vh;}
+  to {padding-top: 6vh; padding-bottom: 6vh;}
+}
+@-moz-keyframes padding-move {
+  from {padding-top: 0vh; padding-bottom: 0vh;}
+  to {padding-top: 6vh; padding-bottom: 6vh;}
+}
+@-ms-keyframes padding-move {
+  from {padding-top: 0vh; padding-bottom: 0vh;}
+  to {padding-top: 6vh; padding-bottom: 6vh;}
+}
+@-o-keyframes padding-move {
+  from {padding-top: 0vh; padding-bottom: 0vh;}
+  to {padding-top: 6vh; padding-bottom: 6vh;}
+}
+@keyframes padding-move {
+  from {padding-top: 0vh; padding-bottom: 0vh;}
+  to {padding-top: 6vh; padding-bottom: 6vh;}
+}*/
+
+#header-tagline h4 {
+  /*display: none;*/
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+/**/
+
+
+/* Navigation */
+.navigation ul {
+  margin-top: 8vh;
+  padding: 0;
+  text-align: center;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.navigation li {
+	margin-right: 3px;
+  margin-left: 3px;
+	height: 50px;
+    display: inline;
+    list-style: none;
+}
+
+.navigation a:link, .navigation a:visited
+{
+    display:table-cell;
+    vertical-align:middle;
+    margin-right: -4px;
+    width:7vw;
+    height: 60px;
+    /*height: 60px;*/
+    min-width: 80px;
+    color:#FFFFFF;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+    border: solid 1px #ffffff; 
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.navigation a:hover, .navigation a:active
+{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/**/
+
+/*Scroll Down*/
+
+.scroll-down a {
+	position: absolute;
+  bottom: 30px;
+  left: 50%;
+  font-size: 50px;
+  animation: bounce 2s infinite 2s;
+  -webkit-animation: bounce 2s infinite 2s;
+  color: #FFFFFF;
+  text-decoration:none;
+}
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0)
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+/**/
+
+
+/*Solutions*/
+.solutions {
+  text-align: center;
+  padding-top: 6%;
+  background-color: #e7e7e7;
+}
+/**/
+
+
+
+h1 {
+	font-size: 5em;
+	font-weight: 550;
+}
+
+h2 {
+	font-size: 3vw;
+}
+
+h3 {
+	font-size: 2.3em;
+	font-weight: 200;
+	letter-spacing: 1.05px;
+}
+
+h4 {
+	font-size: 2.5vh;
+}
