@@ -1,3 +1,5 @@
+/* dark blue: #222c3d*/
+
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -173,12 +175,110 @@ body {
 
 
 /*Solutions*/
-.solutions {
+.about-solutions {
   text-align: center;
   height: 400px;
-  background-color: #e7e7e7;
+}
+
+#about {
+  background-color: #f7f7f7;
+  float:left; 
+  width: 40%;
+  height: 100%
+}
+
+
+#solutions {
+  background-color: white;
+  border-left: 2px solid #222c3d;
+  overflow: hidden;
+  height: 100%;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+   #about { 
+    float: none;
+    width:auto;  
+  }
+}
+
+
+/*Tabs*/
+.tab {
+  /*padding-top: 50px;*/
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #888;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabs {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+  
+.tabs li {
+  float: left;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.tabs a {
+  background-color: #eff0f2;
+  border-bottom: 1px solid #fff;
+  color: #888;
+  font-weight: 500;
+  display: block;
+  letter-spacing: 0;
+  outline: none;
+  padding: 0 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid #222c3d;
+}
+
+.tabs_item {
+  display: none;
+  padding: 30px 0;
+}
+
+.tabs_item:first-child {display: block;}
+
+.tabs_item h4 {
+    font-weight: bold;
+    color: #222c3d;
+    font-size: 20px;
+}
+
+.tabs_item img {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.current a {
+  color: #fff;
+  background: #222c3d;
 }
 /**/
+
 
 
 
