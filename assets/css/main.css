@@ -193,6 +193,12 @@ body {
 /**/
 
 
+.content {
+  color: #888;
+  font-size: 20px;
+  text-align: justify;
+}
+
 /*Solutions*/
 .about-solutions {
   text-align: center;
@@ -214,6 +220,11 @@ body {
 #about hr {
   width: 150px;
   border-color: #dce0e8;
+}
+
+#about-content {
+  width: 90%;
+  margin: 0 auto;
 }
 
 #solutions {
@@ -245,9 +256,6 @@ body {
   background: #fff;
   width: 90%;
   margin: 0 auto;
-  line-height: 1.5;
-  font-weight: 300;
-  color: #888;
   -webkit-font-smoothing: antialiased;
 }
 
