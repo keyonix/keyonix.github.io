@@ -8,6 +8,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
   background-color: black;
   overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
 }
 
 
@@ -256,7 +257,6 @@ body {
   background: #fff;
   width: 90%;
   margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
 }
 
 .tabs {
