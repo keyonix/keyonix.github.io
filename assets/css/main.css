@@ -16,7 +16,8 @@ body {
 #bg {
     display: none;
     position: absolute;
-    background: url(../../images/aral-tasher-324864.jpg) no-repeat center center fixed;
+    /*background: url(../../images/aral-tasher-324864.jpg) no-repeat center center fixed;*/
+    background-image: url(../../images/aral-tasher-324864.jpg);
     background-size: cover;
     background-position: center;
     top: 0;
@@ -79,39 +80,16 @@ body {
 
   padding-top: 7vh;
   padding-bottom: 7vh;
-  
-/*  -webkit-animation: padding-move 2s ease-out;
-     -moz-animation: padding-move 2s ease-out;
-      -ms-animation: padding-move 2s ease-out;
-       -o-animation: padding-move 2s ease-out;
-          animation: padding-move 2s ease-out;*/
 
+/*  margin: 0 auto;
+  width: 60%;*/
 }
-/*@-webkit-keyframes padding-move {
-  from {padding-top: 0vh; padding-bottom: 0vh;}
-  to {padding-top: 6vh; padding-bottom: 6vh;}
-}
-@-moz-keyframes padding-move {
-  from {padding-top: 0vh; padding-bottom: 0vh;}
-  to {padding-top: 6vh; padding-bottom: 6vh;}
-}
-@-ms-keyframes padding-move {
-  from {padding-top: 0vh; padding-bottom: 0vh;}
-  to {padding-top: 6vh; padding-bottom: 6vh;}
-}
-@-o-keyframes padding-move {
-  from {padding-top: 0vh; padding-bottom: 0vh;}
-  to {padding-top: 6vh; padding-bottom: 6vh;}
-}
-@keyframes padding-move {
-  from {padding-top: 0vh; padding-bottom: 0vh;}
-  to {padding-top: 6vh; padding-bottom: 6vh;}
-}*/
 
-#header-tagline h4 {
+#header-tagline h3 {
   /*display: none;*/
   margin-left: 4vw;
   margin-right: 4vw;
+  font-size: 1.5em;
 }
 /**/
 
@@ -129,8 +107,8 @@ body {
 	margin-right: 3px;
   margin-left: 3px;
 	height: 50px;
-    display: inline;
-    list-style: none;
+  display: inline;
+  list-style: none;
 }
 
 .navigation a:link, .navigation a:visited
@@ -138,7 +116,8 @@ body {
     display:table-cell;
     vertical-align:middle;
     margin-right: -4px;
-    width:7vw;
+    /*width:7vw;*/
+    width: 120px;
     height: 60px;
     /*height: 60px;*/
     min-width: 80px;
@@ -163,7 +142,7 @@ body {
 .scroll-down a {
 	position: absolute;
   bottom: 30px;
-  left: 48%;
+  left: 50%;
   font-size: 50px;
   animation: bounce 2s infinite 2s;
   -webkit-animation: bounce 2s infinite 2s;
@@ -241,9 +220,10 @@ body {
   height: 100%;
   font-size: 20px;
   padding-top: 40px;
+  padding-bottom: 30px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1350px) {
   .about-solutions{
     display: inline;
    }
@@ -268,6 +248,10 @@ body {
   background: #fff;
   width: 90%;
   margin: 0 auto;
+}
+
+.tab ul {
+  padding: 0px;
 }
 
 .tabs {
@@ -328,24 +312,11 @@ body {
 }
 /**/
 
-
-
-
 h1 {
 	font-size: 5em;
   margin: 0;
 }
 
-h2 {
-	font-size: 3vw;
-}
-
-h3 {
-	font-size: 2.3em;
-	font-weight: 200;
-	letter-spacing: 1.05px;
-}
-
-h4 {
-	font-size: 2.5vh;
-}
+/*h4 {
+	font-size: 1.5em;
+}*/
