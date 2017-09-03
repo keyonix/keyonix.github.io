@@ -16,8 +16,7 @@ body {
 #bg {
     display: none;
     position: absolute;
-    /*background: url(../../images/aral-tasher-324864.jpg) no-repeat center center fixed;*/
-    background-image: url(../../images/aral-tasher-324864.jpg);
+    background: url(../../images/aral-tasher-324864.jpg) no-repeat center center fixed;
     background-size: cover;
     background-position: center;
     top: 0;
