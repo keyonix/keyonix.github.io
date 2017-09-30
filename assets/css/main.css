@@ -375,6 +375,21 @@ textarea {
 }
 /**/
 
+/*Footer*/
+.footer {
+  height: 70px;
+  background-color: #fff;
+  border-top: 0.5px solid #222c3d;
+  color: #888;
+  text-align: center;
+}
+
+.footer p {
+  padding-top: 25px;
+  margin: 0;
+}
+/**/
+
 
 
 h1 {
