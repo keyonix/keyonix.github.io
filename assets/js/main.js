@@ -8,14 +8,10 @@ $(document).ready(function(){
 // Mobile fixes
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
     // Mobile vh100 scroll fix
-    function calcVH() {
-        $('#header').innerHeight( $(this).innerHeight() );
-    }
-    calcVH();
     $(window).on('resize orientationchange', function() {
-        calcVH();
+        $('#header').innerHeight( $(this).innerHeight() );
     })
-
+    
     // Mobile bg cover fix
     $('#bg').css({ 'background-size': 'auto', 'background-position': '0% 0%' });
 }
