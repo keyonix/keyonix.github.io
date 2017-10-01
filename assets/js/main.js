@@ -8,8 +8,9 @@ $(document).ready(function(){
 // Mobile fixes
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
     // Mobile vh100 scroll fix
-    var viewportHeight = $('#header').outerHeight();
-    $('#header').css({ 'height': viewportHeight });
+    $(window).on('resize orientationchange', function() {
+        $('#header').innerHeight( $(this).innerHeight() );
+    }
 
     // Mobile bg cover fix
     $('#bg').css({ 'background-size': 'auto', 'background-position': '0% 0%' });
